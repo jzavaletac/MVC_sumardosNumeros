@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package controlador;
 
-/**
- *
- * @author OCA-UIE
- */
+import java.awt.event.*;
+import modelo.OperacionMatematica;
+import vista.frmOperaciones;
+
 public class ControladorfrmOperaciones {
+    
+    private modelo.OperacionMatematica modelo;
+    private frmOperaciones vista;
+    
+    public ControladorfrmOperaciones( OperacionMatematica modelo , frmOperaciones vista ){
+        this.vista = vista;
+        this.modelo = modelo;
+        
+        this.vista
+        
+    }
+    
+    public void iniciar(){
+        this.vista.setVisible(true);
+    }
     
 }
